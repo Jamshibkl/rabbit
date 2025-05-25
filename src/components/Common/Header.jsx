@@ -1,5 +1,5 @@
-import Topbar from "../Layout/Topbar"
-import Navbar from "./Navbar"
+import Topbar from "../Layout/Topbar";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar />
       {/* cart drawer */}
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
