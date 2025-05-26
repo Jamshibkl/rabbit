@@ -13,9 +13,9 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="text-center text-white flex flex-col items-center gap-4 px-4">
+        <div className="text-start text-white flex flex-col items-center gap-4 px-4">
           <h1 className="text-4xl md:text-9xl font-bold uppercase tracking-tight leading-tight">
-            Vacation <br /> Ready
+            Vactaion <br /> Ready.
           </h1>
 
           <p className="text-sm md:text-lg tracking-tight max-w-xl">
@@ -25,7 +25,7 @@ const Hero = () => {
           <Link
             to="#"
             className="bg-white text-gray-950 px-6 py-2 rounded-sm text-lg hover:bg-gray-200 transition-all">
-            Shop Now
+           SHOP COLLECTION
           </Link>
         </div>
       </div>
