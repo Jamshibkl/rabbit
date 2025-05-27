@@ -1,8 +1,13 @@
 import React from "react";
 import { IoMdClose } from "react-icons/io";
 import CartConents from "../Cart/CartConents";
-
+import { useNavigate } from "react-router-dom";
+useNavigate
 const CartDrawer = ({ drawerOpen, toggleCartDrawer }) => {
+  const navigate = useNavigate();
+  const handleCheckout = () => {
+    navigate("/checkout");
+  }
   return (
     <div
       className={`fixed top-0 right-0 w-3/4 sm:w-1/2 md:w-[30rem] h-full bg-white shadow-lg transform transition-transform duration-300 flex flex-col z-50 ${

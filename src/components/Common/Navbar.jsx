@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Center Navigation Links */}
         <div className="hidden md:flex space-x-6">
           <Link
-            to="/"
+            to="/collections/all"
             className="text-gray-700 hover:text-black text-sm font-medium uppercase">
             men
           </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
             onClick={toggleCartDrawer}
             className="relative hover:text-black">
             <HiOutlineShoppingBag className="h-6 w-6 text-gray-700" />
-            <span className="absolute -top-1 bg-black text-white text-xs rounded-full px-2 py-0.5">
+            <span className="absolute -top-1 bg-rabbit-red text-white text-xs rounded-full px-2 py-0.5">
               4
             </span>
           </button>
